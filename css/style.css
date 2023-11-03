@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TOPO */
+
+.topo {
+    padding: 10px 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.topo h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.topo span {
+    color: rgb(21, 159, 21);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* CONTAINER */
+
+.container {
+    background-color: #f0f0f0;
+    padding: 40px 40px;
+}
+
+.area-limite {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* CARD */
+
+.card-produto {
+    flex: 1 1 300px;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 4px;
+}
+
+/* IMAGEM CARD */
+.img-card {
+    height: 200px;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+/* INFORMAÇÕES DO CARD */
+
+.info-card {
+    padding: 0 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-card h2 {
+    font-size: 18px;
+}
+
+/* ÁREA DO PREÇO DO PRODUTO */
+
+.preco-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c9c4c4;
+    align-items: center;
+}
+
+.icone-preco-card {
+    padding: 5px;
+    border: 1px solid #c9c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
